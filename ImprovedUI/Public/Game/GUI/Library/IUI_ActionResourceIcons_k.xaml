@@ -123,7 +123,9 @@
             <DataTrigger Binding="{Binding TypeId}" Value="BladesongCharge">
                 <Setter Property="Source" Value="{StaticResource BladesongIcon}"/>
             </DataTrigger>
-			<!-- EDIT HERE -->
+		<DataTrigger Binding="{Binding TypeId}" Value="PsionicDie">
+                <Setter Property="Source" Value="{StaticResource PsionicDieIcon}"/>
+            </DataTrigger>
         </Style.Triggers>
     </Style>
 
